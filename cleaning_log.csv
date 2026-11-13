@@ -1,0 +1,10 @@
+Step,Column,Rows_affected,Action
+Load,all,17342,"Rows kept for Telangana (file had 10,853,209 rows)"
+Standardise,state,0,Trimmed spaces and unified capitalisation
+Standardise,district,0,Trimmed spaces and unified capitalisation
+Standardise,block,0,Trimmed spaces and unified capitalisation
+Standardise,village_name,0,Trimmed spaces and unified capitalisation
+Convert,value,0,Non-numeric values turned into blanks
+Duplicates,village+year+nutrient+rating,0,Repeated rows removed (first copy kept)
+Validate,value,0,Negative values set to blank
+Missing,value,0,Rows without a usable value excluded from calculations (not filled)
