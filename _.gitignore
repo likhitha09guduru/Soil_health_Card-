@@ -1,0 +1,6 @@
+# Large raw data file (1.2 GB) - never upload to GitHub
+soil_health_card.csv
+*.zip
+# Notebook / Python junk
+.ipynb_checkpoints/
+__pycache__/
