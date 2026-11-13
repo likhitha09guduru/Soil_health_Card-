@@ -38,7 +38,11 @@ A Python project that cleans and analyses **real** village-level soil-test data 
 | `figures/` | Charts |
 
 ## Key findings
-*(Run the notebook, then paste the "Key findings" printed in section 14 here.)*
+- 17,342 rows loaded for Telangana; 17,342 usable after cleaning. value is treated as counts.
+- Organic carbon results exist for 598 of 598 villages (2024-25).
+- Share of organic carbon results rated Low across Telangana: 57.5%.
+- District with the highest Low organic carbon share: Jangoan (95.0%). Lowest: Karimnagar (13.3%).
+- Villages where at least half of results are Low organic carbon: 315 (52.7%).
 
 ## Limitations
 - Ratings, not measurements: organic carbon percentages and carbon stock cannot be calculated.
